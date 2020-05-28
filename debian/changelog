@@ -1,0 +1,41 @@
+kernel-simulator (0.0.10.0) focal; urgency=medium
+
+  * Updated libraries
+  * Fixed mods not being able to access the Encryption class
+  * Simplified encryption code for mods
+  * Improved list of filesystems
+  * Fixed FTP crash when faced with multiple profiles
+  * Now FTP addresses starting with ftpes:// will also be accepted
+  * Made FTP profile listing more clear
+  * Now the IMAP client will tell you if there's an attachment when reading
+  * Fixed misleading message when reading the first message
+  * Added scripting
+  * Fixed IMAP shell crash when idle
+  * Now error messages have their own color
+  * Restored echo, beep, and choice commands from 0.0.1 for script implementation
+  * Added input command
+  * Now IMAP client shows newest messages first
+  * Fixed unexpected kernel crash when the IMAP shell crashed
+  * Added debugging messages in IMAP shell
+  * Added other folder support to IMAP client
+  * Added code documentation for modders and devs using Visual Studio
+  * Added usage commands support for FTP
+  * Added new events for mods
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Thu, 28 May 2020 09:35:48 +0300
+
+kernel-simulator (0.0.9.0-2) bionic; urgency=critical
+
+  * Fixed list command crashing on IMAP shell when no page number is specified
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Sun, 26 Apr 2020 20:35:28 +0300
+
+kernel-simulator (0.0.9.0-1) bionic; urgency=medium
+
+  * Updated libraries
+  * Added IMAP shell
+  * Added Slovak language
+  * Added comment to Language config entry
+  * Fixed kernel crash if remote debugger failed to start
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Thu, 23 Apr 2020 19:30:46 +0300
