@@ -21,10 +21,11 @@
 
 build:
 	# Restore every package from solution and build the app
-	msbuild -t:restore
+	mkdir debian/homedir
+	echo `pwd`"/debian/homedir"
+	HOME=`pwd`"/debian/homedir" msbuild -t:restore
 	msbuild "Kernel Simulator.sln"
-	# Remove unnecessary things generated (Windows-only VLC binaries and KS nupkgs)
-	rm -r "Kernel Simulator/KSBuild/libvlc"
+	# Remove unnecessary things generated (KS nupkgs)
 	IFS="|"; for f in `find -regex ".*\.+[^.]*\.+[^.]*\.+.*nupkg" | awk '{printf "%s|", $$0}'`; do rm $$f; done; IFS=" "
 
 binary:
