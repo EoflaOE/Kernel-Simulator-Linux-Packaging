@@ -3,7 +3,7 @@ kernel-simulator (0.0.10.1-1) focal; urgency=medium
   * Fixed OutOfMemory when hashing large files
   * Added new CI test that tests string encryption.
 
- -- EoflaOE <eoflaoevicecity@gmail.com>  Thu, 11 Jul 2020 20:30:48 +0300
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Sat, 11 Jul 2020 20:30:48 +0300
 
 kernel-simulator (0.0.10.0.2) focal; urgency=medium
 
