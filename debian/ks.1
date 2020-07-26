@@ -17,7 +17,7 @@
 .\" This manpage is created specially for Debian. It will eventually be universal.
 .\"
 
-.TH ks 1 "25 Apr 2020" "0.0.10.0-Man1.0" "Kernel Simulator"
+.TH ks 1 "26 Jul 2020" "0.0.11.0-Man1.0" "Kernel Simulator"
 .SH NAME
 ks \- simulates our future-planned kernel 
 .SH SYNOPSIS
@@ -78,6 +78,9 @@ Tests the placeholder parsing function for strings using system, timezone, and s
 .TP 4
 .B CI-TestCalc
 Tests the evaluation calculation feature using "DoCalc", prints the results to the console, and exits the kernel.
+.TP 4
+.B CI-TestEncryptString
+Tests the string encryption using three strings, prints the results to the console, and exits the kernel.
 .SH BUGS
 In some cases, VLC might fail to start with the message that it could not initialize the library if "speak" command is used.
 .SH AUTHOR
