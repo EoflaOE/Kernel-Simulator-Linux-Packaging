@@ -1,3 +1,9 @@
+kernel-simulator (0.0.11.0-2) focal; urgency=medium
+
+  * Fixed build failure
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Sun, 26 Jul 2020 11:47:48 +0300
+
 kernel-simulator (0.0.11.0-1) focal; urgency=medium
 
   * Added command cancellation when CTRL+C is pressed implementation
