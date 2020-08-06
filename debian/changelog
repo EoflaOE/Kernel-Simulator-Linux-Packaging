@@ -1,3 +1,11 @@
+kernel-simulator (0.0.11.1) focal; urgency=medium
+
+  * We had to take out Turkish language because we can't support terrorism.
+  * Fixed messup on console output redirection
+  * Added notification when config fails to be read
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Thu, 06 Aug 2020 13:53:27 +0300
+
 kernel-simulator (0.0.11.0-2) focal; urgency=medium
 
   * Fixed build failure
