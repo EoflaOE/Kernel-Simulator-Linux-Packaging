@@ -1,3 +1,10 @@
+kernel-simulator (0.0.12.0) focal; urgency=medium
+
+  * The list is too long, so read the bottom of the page below
+    * github.com/EoflaOE/Kernel-Simulator/wiki/History-of-KS
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Fri, 06 Nov 2020 20:00:00 +0300
+
 kernel-simulator (0.0.11.1) focal; urgency=medium
 
   * We had to take out Turkish language because we can't support terrorism.
