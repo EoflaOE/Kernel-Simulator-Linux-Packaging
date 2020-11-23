@@ -1,3 +1,12 @@
+kernel-simulator (0.0.12.1) focal; urgency=medium
+
+  * Fixed variables not being parsed in translated versions of Punjabi messages
+  * Fixed some strings not being translated
+  * Fixed SSH connection error even after successful connection
+  * Fixed high CPU usage when connected to an SSH server
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Sun, 22 Nov 2020 07:12:28 +0200
+
 kernel-simulator (0.0.12.0) focal; urgency=medium
 
   * The list is too long, so read the bottom of the page below
