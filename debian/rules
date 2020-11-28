@@ -30,18 +30,18 @@ build:
 
 binary:
 	# Prepare directories
-	mkdir -p debian/kernel-simulator/usr/bin
-	mkdir -p debian/kernel-simulator/usr/lib
+	mkdir -p debian/kernel-simulator-servicing/usr/bin
+	mkdir -p debian/kernel-simulator-servicing/usr/lib
 	# Copy required files to their directories
-	cp -r "Kernel Simulator/KSBuild/." "debian/kernel-simulator/usr/lib"
-	cp "debian/ks" "debian/kernel-simulator/usr/bin/ks"
+	cp -r "Kernel Simulator/KSBuild/." "debian/kernel-simulator-servicing/usr/lib"
+	cp "debian/ks" "debian/kernel-simulator-servicing/usr/bin/ks"
 	# Set up permissions
-	chmod 755 "debian/kernel-simulator/usr/bin/ks"
-	chmod -R 644 debian/kernel-simulator/usr/lib/.
-	chmod 755 debian/kernel-simulator/usr/lib
+	chmod 755 "debian/kernel-simulator-servicing/usr/bin/ks"
+	chmod -R 644 debian/kernel-simulator-servicing/usr/lib/.
+	chmod 755 debian/kernel-simulator-servicing/usr/lib
 	# Set up owners
-	chown -R root:root debian/kernel-simulator/usr/bin
-	chown -R root:root debian/kernel-simulator/usr/lib
+	chown -R root:root debian/kernel-simulator-servicing/usr/bin
+	chown -R root:root debian/kernel-simulator-servicing/usr/lib
 	# Install everything
 	dh_install
 	dh_installdocs
