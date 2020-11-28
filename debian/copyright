@@ -1,5 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: kernel-simulator
+Upstream-Name: kernel-simulator-servicing
 Source: https://github.com/EoflaOE/Kernel-Simulator/blob/master/LICENSE
 
 Files: *

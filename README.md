@@ -8,6 +8,6 @@ This repository will provide necessary requirements for packaging the current ve
 5. Use dch (Debian), and verify that your name exists. Write something like `Initial package release for <environment>`, replacing `<environment>` with your development environment.
 6. Go back one level, and execute `tar cfv kernel-simulator_<version-in-changelogs>.orig.tar Kernel-Simulator-master`
 7. Execute `gzip -9 kernel-simulator_<version-in-changelogs>.orig.tar`
-8. Make a backup of the root directory before proceeding (make a second copy of the directory). Afterwards, verify that `debuild -sa` works for you in the backup directory (not the main). It should build everything.
-9. If it works, remove the second copy, go to the main directory, and run `debuild -S -sa` from there. It should make the *source.changes file with necessary files.
+8. Run `debuild -S -sa` from there. It should make the *source.changes file with necessary files.
+9. Set up a simple [schroot environment](https://wiki.ubuntu.com/SimpleSbuild), and run `sbuild --extra-repository="deb http://ppa.launchpad.net/eofla/mono-msbuild/ubuntu focal main" --extra-repository-key /path/to/our.asc -d focal-amd64 kernel-simulator_<version-in-changelogs>.dsc` To get our asc file, follow the steps [here](https://wiki.ubuntu.com/SimpleSbuild#Temporarily_adding_PPAs)
 10. Upload it to Launchpad or any other alternatives. Our main target for this repo is uploading MSBuild to Launchpad and build it with no problems, but you are free to reupload to your own PPA and make your own changes.
