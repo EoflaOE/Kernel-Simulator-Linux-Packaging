@@ -1,3 +1,15 @@
+kernel-simulator (0.0.12.2) focal; urgency=medium
+
+  * Reverted to SSH.NET version 2016.1.0 as it fixes NuGet installation error under normal circumstances. For more info, consult "The truth of SSH.NET 2020.0.0 Beta 1"
+  * Bug fixes and general improvements
+  * Fixed shell error trying to use multi commands in some cases
+  * Fixed multi command colon not working for mods and aliases
+  * Fixed injected commands failing with a shell error
+  * Fixed newline on input line in cmdinject argument
+  * Added help page for real cmdline args for KS
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Wed, 02 Dec 2020 17:14:51 +0200
+
 kernel-simulator (0.0.12.1) focal; urgency=medium
 
   * Fixed variables not being parsed in translated versions of Punjabi messages
