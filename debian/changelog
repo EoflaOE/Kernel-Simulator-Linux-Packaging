@@ -1,3 +1,11 @@
+kernel-simulator (0.0.12.3) focal; urgency=medium
+
+  * Fixed artifacts in Swahili
+  * Fixed inconsistencies regarding rexec command
+  * Fixed RPC commands not listening
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Tue, 08 Dec 2020 07:18:48 +0200
+
 kernel-simulator (0.0.12.2) focal; urgency=medium
 
   * Reverted to SSH.NET version 2016.1.0 as it fixes NuGet installation error under normal circumstances. For more info, consult "The truth of SSH.NET 2020.0.0 Beta 1"
