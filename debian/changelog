@@ -1,3 +1,14 @@
+kernel-simulator (0.0.13.0) focal; urgency=medium
+
+  * Added SHA512 encryption algorithm
+  * Added SFTP
+  * Fixed console formats in FTP and SFTP
+  * Added new string placeholder for host name
+  * Added custom shell prompt style
+  * Fixed password field being accessible to mods
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Mon, 21 Dec 2020 13:43:11 +0200
+
 kernel-simulator (0.0.12.3) focal; urgency=medium
 
   * Fixed artifacts in Swahili
