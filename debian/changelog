@@ -1,3 +1,9 @@
+kernel-simulator (0.0.13.1) focal; urgency=medium
+
+  * Added current directory placeholder
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Thu, 24 Dec 2020 14:05:43 +0200
+
 kernel-simulator (0.0.13.0) focal; urgency=medium
 
   * Added SHA512 encryption algorithm
