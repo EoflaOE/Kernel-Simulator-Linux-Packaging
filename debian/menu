@@ -1,0 +1,6 @@
+?package(ks):needs=text section="Applications/Utilities" \
+  title="Kernel Simulator" \
+  command="bash -c '/usr/bin/ks'"
+?package(ks):needs=X11|wm section="Applications/Utilities" \
+  title="Kernel Simulator" \
+  command="x-terminal-emulator -e \\"bash -c '/usr/bin/ks'\\""

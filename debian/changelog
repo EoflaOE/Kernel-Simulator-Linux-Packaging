@@ -1,3 +1,22 @@
+kernel-simulator (0.0.14.0) focal; urgency=medium
+
+  * Added executable file running
+  * Fixed NullReferenceException when parsing Nothing in all printing commands in TextWriterColor
+  * Updated libraries
+  * Used Inxi.NET for hardware probing
+  * Added mail message preview implementation
+  * Fixed inconsistencies in network section of settings command
+  * Removed listdrives and listparts in favor of sysinfo showing hard drive information
+  * Added color change to Settings, removing setcolors
+  * Added a way to get the target link in SFTP directory listing
+  * Fixed NullReferenceException when trying to change remote SFTP directory
+  * Fixed local SFTP directory not changing
+  * Added custom shell input prompt support
+  * Removed Slot Probe in favor of rewritten hardware probe
+  * Added Bouncing Block Screensaver
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Thu, 21 Jan 2021 13:03:38 +0200
+
 kernel-simulator (0.0.13.1) focal; urgency=medium
 
   * Added current directory placeholder
