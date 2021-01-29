@@ -1,3 +1,11 @@
+kernel-simulator (0.0.14.1) focal; urgency=medium
+
+  * Fixed wrong UESH message if command is not found
+  * DoCalc is obsolete
+  * Now bouncing block settings are customizable
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Fri, 29 Jan 2021 16:22:00 +0200
+
 kernel-simulator (0.0.14.0) focal; urgency=medium
 
   * Added executable file running
