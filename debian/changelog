@@ -1,3 +1,26 @@
+kernel-simulator (0.0.15.0) UNRELEASED; urgency=medium
+
+  * Added BedOS, 3Y-Diamond, and TealerOS colors
+  * Allowed specifying city name in weather command
+  * Made calc use string evaluator
+  * Fixed NullReferenceException when running maintenance mode
+  * Added Irish and Welsh languages
+  * Now time offsets can display a plus sign
+  * General improvements
+  * Added new text edit commands, including querychar
+  * Fixed new instances of text editor not "opening" files after closing the first session
+  * Added progress implementation to notification system
+  * Fixed console output messup in certain situations
+  * Users are free to turn on/off text edit autosave and set interval
+  * Added text changed indicator
+  * Added conflict detection to mod parser
+  * Now you're free to choose to record remote debug chat logs or not
+  * Fixed crash on startup in Linux
+  * Ping continues even if one device can't be pinged
+  * Screensaver timeouts are now customizable except for AptErrorSim, HackUserFromAD, and Dissolve
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Sun, 21 Feb 2021 06:41:50 +0200
+
 kernel-simulator (0.0.14.1) focal; urgency=medium
 
   * Fixed wrong UESH message if command is not found
