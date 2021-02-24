@@ -1,4 +1,11 @@
-kernel-simulator (0.0.15.0) UNRELEASED; urgency=medium
+kernel-simulator (0.0.15.1) focal; urgency=medium
+
+  * Fixed unlocalized strings in 0.0.15.0
+  * Added missing string for SSH FTP help entry
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Wed, 24 Feb 2021 06:59:37 +0200
+
+kernel-simulator (0.0.15.0) focal; urgency=medium
 
   * Added BedOS, 3Y-Diamond, and TealerOS colors
   * Allowed specifying city name in weather command
