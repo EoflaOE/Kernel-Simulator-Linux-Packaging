@@ -1,3 +1,11 @@
+kernel-simulator (0.0.15.2) focal; urgency=medium
+
+  * Use vt100 terminal (nano is still flaky)
+  * Fixed crash on next reboot when hardware probing fails
+  * Implemented percentage indicator for notification
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Thu, 04 Mar 2021 21:34:22 +0200
+
 kernel-simulator (0.0.15.1) focal; urgency=medium
 
   * Fixed unlocalized strings in 0.0.15.0
