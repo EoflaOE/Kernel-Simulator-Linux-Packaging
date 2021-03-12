@@ -1,3 +1,18 @@
+kernel-simulator (0.0.15.4) focal; urgency=medium
+
+  * Removed listdrives and listparts help commands
+  * Now help shows message when invalid command is entered
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Fri, 12 Mar 2021 09:33:46 +0200
+
+kernel-simulator (0.0.15.3) focal; urgency=medium
+
+  * Added category indicator to settings
+  * Improved sysinfo viewing in languages other than English
+  * Disabled cached hardware probing
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Wed, 10 Mar 2021 16:19:45 +0200
+
 kernel-simulator (0.0.15.2) focal; urgency=medium
 
   * Use vt100 terminal (nano is still flaky)
