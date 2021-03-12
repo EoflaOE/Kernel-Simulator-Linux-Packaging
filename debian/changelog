@@ -1,3 +1,11 @@
+kernel-simulator (0.0.15.5) focal; urgency=medium
+
+  * General improvements
+  * Fixed profile listing being offset by 1
+  * Use ftp:// instead of ftps:// by default
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Fri, 12 Mar 2021 17:41:36 +0200
+
 kernel-simulator (0.0.15.4) focal; urgency=medium
 
   * Removed listdrives and listparts help commands
