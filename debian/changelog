@@ -1,3 +1,10 @@
+kernel-simulator (0.0.15.6) focal; urgency=medium
+
+  * General improvements
+  * Now profile answer takes more than one digit.
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Sat, 20 Mar 2021 07:41:29 +0200
+
 kernel-simulator (0.0.15.5) focal; urgency=medium
 
   * General improvements
