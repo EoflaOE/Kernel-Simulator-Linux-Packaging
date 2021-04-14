@@ -1,4 +1,6 @@
 # Linux Packaging for Kernel Simulator
+Warning: A newer version of this repo is available [here](https://github.com/EoflaOE/ks-offline-packaging). It's automatic for package initialization.
+
 This repository will provide necessary requirements for packaging the current version of Kernel Simulator in both online and offline systems. The necessary dependencies that will be made for individual versions can be downloaded in Releases, but to make it work on your Debian installation, follow these steps:
 
 1. Clone the source code using `git clone https://github.com/EoflaOE/Kernel-Simulator-Linux-Packaging.git`
