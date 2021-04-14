@@ -1,3 +1,16 @@
+kernel-simulator (0.0.15.8) focal; urgency=medium
+
+  * Fixed NullReferenceException when trying to get symlink target
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Wed, 14 Apr 2021 10:11:20 +0300
+
+kernel-simulator (0.0.15.7) focal; urgency=medium
+
+  * Fixed percentage of notification not clearing
+  * Added option to set current directory from settings
+
+ -- EoflaOE <eoflaoevicecity@gmail.com>  Sun, 21 Mar 2021 19:21:52 +0200
+
 kernel-simulator (0.0.15.6) focal; urgency=medium
 
   * General improvements
